@@ -5,11 +5,16 @@
 
 Variant of the 15-puzzle: when the empty tile is on the edge of the board, the tile on the opposite side of the board can be slid into the opening.
 
-## Running the tests
+## Running the program
 python puzzle.py [input-board-filename]  
 where input-board-filename is a text file containing a board configuration in a format like:  
 5 7 8 1  
 10 2 4 3  
 6 9 11 12  
 15 13 14 0  
-where 0 is the position of the empty tile.
+where 0 is the position of the empty tile.  
+
+## Program Output
+ [move-1] ... [move-n]  
+ where each move is encoded as a letter L, R, U, or D for left, right, up, or down, respectively, indicating  
+ which direction a tile is slid in order to fill the missing tile.
