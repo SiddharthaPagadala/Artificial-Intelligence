@@ -4,4 +4,4 @@
 * Solution for N-Queens problem includes finding steps to place N queens such that no two queens share the same row, column, or diagonal.
 
 ## Running the program
-python nrooks.py  
+python n_rooks_queens.py  
