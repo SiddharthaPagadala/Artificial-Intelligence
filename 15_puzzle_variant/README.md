@@ -6,10 +6,10 @@
 Variant of the 15-puzzle: when the empty tile is on the edge of the board, the tile on the opposite side of the board can be slid into the opening.
 
 ## Running the tests
-python puzzle.py [input-board-filename]
-where input-board-filename is a text file containing a board configuration in a format like:
-5 7 8 1
-10 2 4 3
-6 9 11 12
-15 13 14 0
+python puzzle.py [input-board-filename]  
+where input-board-filename is a text file containing a board configuration in a format like:  
+5 7 8 1  
+10 2 4 3  
+6 9 11 12  
+15 13 14 0  
 where 0 is the position of the empty tile.
