@@ -6,7 +6,7 @@
 Variant of the 15-puzzle: when the empty tile is on the edge of the board, the tile on the opposite side of the board can be slid into the opening.
 
 ## Running the tests
-python solver15.py [input-board-filename]
+python puzzle.py [input-board-filename]
 where input-board-filename is a text file containing a board configuration in a format like:
 5 7 8 1
 10 2 4 3
